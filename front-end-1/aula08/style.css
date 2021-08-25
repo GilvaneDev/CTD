@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+.titulo-principal{
+    font-family: 'Roboto', sans-serif;
+    color: #00ffff;
+}
+div{
+    height: 500px;
+    background-image: url('parque.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
