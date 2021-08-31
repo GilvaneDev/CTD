@@ -1,0 +1,27 @@
+body{
+    margin: 0 auto;
+    width: 980px;
+    height: 720px;
+}
+
+.banner{
+    box-sizing: border-box;
+    background-image: url('software-developer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 980px;
+    height: 700px;
+    text-align: center;
+    padding: 200px 0;   
+}
+h1, h2{
+    color: aqua;
+}
+button{
+    box-sizing: border-box;
+    background-color: aqua;
+    color: black;
+    border-radius:8px;
+    width: 200px;
+    height: 50px;
+}

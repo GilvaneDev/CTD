@@ -58,21 +58,23 @@
                 - Caso a resposta seja não:
                     - Receberá um pedido de agradecimento.
         */
-        var imc = {
-            peso: prompt('Qual seu peso?'),
-            altura: prompt('Qual sua Altura?'),
 
 
+
+        function calcularImc(peso, altura, resultadoImc, perfilImc) {
+            peso = prompt('Qual seu peso?')
+            altura = prompt('Qual sua Altura?')
+            resultadoImc = peso / (altura * altura)
 
         }
-        function calcularImc() {
-            var resultadoImc: peso / (altura * altura)
-            var perfilImc = resultadoImc <= 18.5 ? 'MACREZA' :
+
+        function perfilImc() {
+            var resultadoImc <= 18.5 ? 'MAGREZA' :
                 resultadoImc >= 18.5 && resultadoImc <= 24.9 ? 'NORMAL' :
                     resultadoImc >= 25 && resultadoImc <= 29.9 ? 'SOBREPESO' :
                         resultadoImc >= 30 && resultadoImc <= 39.9 ? 'OBSIDADE' : 'OBSIDADE GRAVE';
 
-            alert(`Seu IMC é iqual a:${resultadoImc} e sua seu perfil é:${perfilImc}`);
+            alert(`Seu IMC é iqual a:${resultadoImc} e seu perfil é:${perfilImc}`);
         }
     </script>
 </body>
