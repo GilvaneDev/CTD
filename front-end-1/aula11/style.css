@@ -1,0 +1,9 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+    margin-top: 12px;
+}
+.posicionamento{
+    position: relative;
+}
