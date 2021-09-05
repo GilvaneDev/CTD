@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    width: 780px;
+    height: 1280px;
+}
+.navbar{
+    width: 780px; 
+    position: fixed;
+    
+}
+.menu{
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style-type: none;
+    
+    background-color: cadetblue;
+    
+}
+.menu li{
+    display: flex;
+    align-items: center;
+    width: 195px;
+    height: 30px;
+    list-style-type: none;
+
+}
+.menu li:hover{
+    background-color: rgb(28, 206, 153);
+    border-radius: 5px;
+}
+.principal{
+    width: 780px;
+    height: 1280px;
+    background-image: url('https://jornalempresasenegocios.com.br/wp-content/uploads/2020/12/3060853-800x445.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box{
+    width: 195px;
+    height: 300px;
+    display: flex;
+    margin: 35px 20px;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+button{
+    height: 25px;
+    width: 70px;
+    margin: 10px 62px;
+    border-radius: 5px;
+    background-color: rgb(28, 206, 153);
+}
+.contato{
+    width: 780px;
+    position: fixed;
+    margin-top: 400px;
+
+}
+.contato img{
+    position: absolute;
+    width: 50px;
+    right: 0;
+}
