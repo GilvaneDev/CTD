@@ -1,0 +1,13 @@
+a:hover {
+  background-color: yellow;
+}
+h1::first-letter {
+  font-size: 200%;
+  color: #8A2BE2;
+}
+.label input:focus {
+  background-color: red;
+}
+p:nth-child(2n) {
+  background-color: rgb(49, 19, 223);
+}
