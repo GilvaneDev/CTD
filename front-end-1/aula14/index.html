@@ -43,19 +43,54 @@
                     <label for="passwordConfirm">Repita sua Senha</label>
                     <input type="password" name="passwordConfirm" id="passwordConfirm">
                 </div>
+                <div class="form">
+                    <input type="checkbox" name="contribuinte" id="contribuinte">
+                    <label for="contribuinte">Contribuinte</label>
+                </div>
+                <div class="form">
+                    <input type="radio" name="option" id="option1">
+                    <label for="option">Opção 1</label>
+                    <input type="radio" name="option" id="option2">
+                    <label for="option">Opção 2</label>
+                    <input type="radio" name="option" id="option3">
+                    <label for="option">Opção 3</label>
+                </div>
+
             </form>
         </div>
 
     </fieldset>
     <fieldset>
         <legend>Localização</legend>
-
         <div class="form">
             <label for="city">Cidade</label>
-            <select name="city" id="city">
-                <option value="saoPaulo">São Paulo</option>
-                <option value="rioJaneiro">Rio de Janeiro</option>
-                <option value="rioSUL">Rio Sul</option>
+            <input required type="search" list="citys" name="city" id="city">
+            <datalist id="citys">
+                <option value="São Paulo">
+                <option value="Rio de Janeiro">
+                <option value="Rio Sul">
+            </datalist>
+        </div>
+
+        <div class="form">
+            <label for="state">Estados</label>
+            <select name="state" id="state">
+                <optgroup label="Sul">
+                    <option value="1">São Paulo</option>
+                    <option value="2">Rio de Janeiro</option>
+                    <option value="3">Rio Sul</option>
+                </optgroup>
+                <optgroup label="Norte">
+                    <option value="1">São Paulo</option>
+                    <option value="2">Rio de Janeiro</option>
+                    <option value="3">Rio Sul</option>
+                </optgroup>
+                <optgroup label="Leste">
+                    <option value="1">São Paulo</option>
+                    <option value="2">Rio de Janeiro</option>
+                    <option value="3">Rio Sul</option>
+                </optgroup>
+
             </select>
 
         </div>

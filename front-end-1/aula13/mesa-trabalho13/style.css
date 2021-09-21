@@ -13,8 +13,10 @@ body{
 .formulario{
     box-sizing: border-box;
     display: flex;
+    justify-content: center;
+    border-radius: 20px;
     width: 300px;
-    height: 450px;
+    height: auto;
     padding: 20px;
     background-color: aquamarine;
 }
@@ -23,12 +25,25 @@ body{
     margin-bottom: 10px;
 }
 .form input{
-width: 150px;
-right: 10px;
-}
-.form label{
+    display: block;
     width: 150px;
+    right: 10px;
+    border-radius: 10px;
+}
+.form label, .form select, .form textarea{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.form select{
+
 }
 .logo img{
     width: 100px;
+}
+form button{
+    border-radius: 5px;
+    margin: 0 auto;
+
 }
