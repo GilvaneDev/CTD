@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns: 130px auto;
+    grid-template-areas:
+    'header header'
+    'aside main';
+}
+body header{
+    background-color: salmon;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+}
+header img{
+    width: 140px;
+}
+body aside{
+    background-color: crimson;
+    grid-area: aside;
+}
+aside ul li{
+    padding: 5px 20px;
+    list-style-type: none;
+}
+body main{
+    background-color: lightseagreen;
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+main img{
+    width: 70vw;
+    margin: 50px 0;
+}
+main h1{
+    text-align: center;
+}
+main p{
+    width: 70vw;
+    padding: 20px 0;
+}
